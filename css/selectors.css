@@ -4,3 +4,8 @@ form[class = "form-contact"] {
     padding: 20px 24px;
     background: #f4f7f8;
 }
+
+div[id = "container"] {
+    max-width:  500px;
+    margin: auto;
+}
