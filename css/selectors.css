@@ -19,3 +19,9 @@ input[type = "reset"],
 input[type = "submit"] {
     cursor: pointer;
 }
+
+a[target = "_blank"] {
+    color: #39add1;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
