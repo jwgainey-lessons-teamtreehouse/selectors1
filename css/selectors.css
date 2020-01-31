@@ -61,4 +61,18 @@ a[target = "_blank"] {
         width: auto;
         display: inline-block;
     }
+    .btn + .btn {
+        margin-left: 20px;
+    }
+}
+
+/* Combiinators */
+form > a {
+    font-size: .7em;
+}
+
+h1 ~ label {
+    background: tomato;
+    color: white;
+    padding: 5px;
 }
